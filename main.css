@@ -1,0 +1,195 @@
+html {
+    background-color: black;
+    background-image: url(Background.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-origin:border-box;
+}
+
+body {
+    
+}
+a{
+    color:darkgrey;
+    transition: text-shadow, color 0.5s;
+
+}
+a:hover{
+    color: cyan;
+    text-shadow: 1px 1px 25px #00ddff;
+    
+}
+#banner {
+    font-size: 20px;
+    text-align: justify;
+    color: fuchsia;
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 10%;
+}
+
+#title {
+    transform: rotate(360deg);
+    transition: 1s;
+    opacity: 0.7;
+}
+#title:hover{
+    transform: rotate(0);
+    opacity: 1;
+    box-shadow: 0px 0px 25px #aaefff;
+}
+#centerbox {
+    width: auto;
+    height: auto;
+    color: aliceblue;
+    background-color:transparent;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: auto;
+    position: relative;
+}
+
+.addbutton{
+    background-color:dimgray;
+    border: none;
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 16px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition: box-shadow 0.25s;
+}
+.addbutton:hover{
+    box-shadow: 1px 1px 50px #aaefff;
+    color: aqua;
+}
+.addbutton:active{
+    background-color: darkslategray;
+    box-shadow: 1px 1px 25px ghostwhite;
+    transform: translateY(4px);
+}
+#container{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+    width:auto;
+    overflow:auto;
+}
+#inner{
+    clear: both;
+    width:100%;
+    overflow: hidden;
+}
+.child {
+    padding: 5px;
+    display: block;
+    float:left;
+    width: auto;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-color: dimgray;
+    color: ghostwhite;
+    font-size: 20px;
+    opacity: 1;
+    transition: box-shadow 1s;
+}
+.child:hover{
+    box-shadow: 1px 1px 25px #aaefff;
+    color: aqua;
+    opacity: 1;
+}
+select{
+    color: cyan;
+    background-color: black;
+    width: 100%;
+    font-size: 15px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: transparent;
+    color: aqua;
+    font-size: 20px;
+}
+.addin{
+    width: 100%;
+    border-bottom: 2px solid cyan;
+}
+#navbar{
+    width: 10%;
+    height: 100%;
+    background-color: #757575;
+    position: fixed;
+    resize: none;
+    top: 0;
+    left: 0;
+    overflow:auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    width: 100%;    
+    padding:0;
+    background-color: #757575;
+}
+li a {
+    transition: background-color 1s;
+    display: block;
+    color:cyan;
+    padding: 75px 10px;
+    
+}
+li.current {
+    background-color:dimgray;
+    width: 100%;
+    text-shadow: 1px 1px darkred;
+    font-size: 50px;
+    font-family: Papyrus, fantasy;    
+}
+
+li a:hover:not(.active) {
+    background-color:cyan;
+    color:black;
+}
+
+Table {
+    text-align: center;
+    width:100%;
+    font-size: 20px;
+    box-shadow: 10px 10px 25px #aaefff;
+}
+
+.cardTable tr:nth-child(even){
+    color:ghostwhite;
+    background-color:#272728;
+}
+.cardTable tr:nth-child(odd){
+    color: ghostwhite;
+    background-color:dimgrey;
+}
+.cardTable th{
+    color: aqua;
+    background-color:black;
+    font-size: 25px;
+}
+
+.add tr:nth-child(even){
+    color:ghostwhite;
+    background-color:#272728;
+}
+.add tr:nth-child(odd){
+    color: ghostwhite;
+    background-color:dimgrey;
+}
+.add th{
+    width: 50%;
+    color: black;
+    background-color:whitesmoke;
+    font-size: 25px;
+}
